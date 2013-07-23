@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 from argparse import ArgumentParser
+from datetime import datetime
 from json import dumps
 from os import path
 from re import match
@@ -47,6 +48,7 @@ class ImageUpdater:
         while True:
             try:
                 self.generate_image(args.directory)
+                print '[%s] image updated' % datetime.now()
             except Exception, e:
                 print e
             if not args.interval:
