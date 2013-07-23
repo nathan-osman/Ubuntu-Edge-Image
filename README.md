@@ -1,6 +1,12 @@
 ## Ubuntu Edge Image
 
-This handy Python script generates an image displaying the percentage of funds raised for the [Ubuntu Edge crowdfunding project](http://www.indiegogo.com/projects/ubuntu-edge). The entire script is written in Python and requires that the following Ubuntu packages be installed:
+This handy Python script generates an image displaying the percentage of funds raised for the [Ubuntu Edge crowdfunding project](http://www.indiegogo.com/projects/ubuntu-edge).
+
+![Ubuntu Edge Progress](http://ue.quickmediasolutions.com/percentage.png)
+
+### Usage
+
+The entire script is written in Python and requires that the following Ubuntu packages be installed:
 
  - `python-lxml`
  - `python-imaging`
